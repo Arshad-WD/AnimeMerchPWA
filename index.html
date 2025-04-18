@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OtakuMart</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🌀 OtakuMart</h1>
+    <p>Your favorite Anime & Manga merch store</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="icons/naruto.jpg" alt="Naruto T-Shirt" />
+      <h3>Naruto T-Shirt</h3>
+      <p>$25.00</p>
+      <button onclick="addToCart('Naruto T-Shirt')">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="icons/onepiece.jpg" alt="One Piece Mug" />
+      <h3>One Piece Mug</h3>
+      <p>$12.00</p>
+      <button onclick="addToCart('One Piece Mug')">Add to Cart</button>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
